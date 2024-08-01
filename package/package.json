@@ -1,0 +1,13 @@
+{
+    "name": "TODO:package-name",
+    "version": "0.0.1",
+    "description": "TODO:package-description",
+    "author": "TODO:package-author",
+    "main": "index.ts",
+    "scripts": {
+        "dev": "tsc --watch",
+        "build": "tsc"
+        },
+    "keywords": ["TODO:package-keywords"],
+    "license": "MIT"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "TODO:package-name",
+  "version": "0.0.1",
+  "description": "TODO:package-description",
+  "author": "TODO:package-author",
+  "private": true,
+  "packageManager": "pnpm@9.6.0",
+  "scripts": {
+    "dev": "pnpm --stream -r --parallel dev",
+    "package:dev": "pnpm --filter TODO:package-name dev",
+    "package:build": "pnpm --filter TODO:package-name build",
+    "package:publish": "pnpm --filter TODO:package-name publish",
+    "lint": "biome check .",
+    "lint:fix": "biome check --apply ."
+  },
+  "keywords": ["TODO:package-keywords"],
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "typescript": "^5.5.4"
+  }
+}
