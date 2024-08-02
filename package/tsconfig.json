@@ -9,16 +9,14 @@
     "moduleDetection": "force",
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
-    // Enable strict type checking so you can catch bugs early
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-    // We are not transpiling, so preserve our source code and do not emit files
-    "module": "preserve",
-    "noEmit": true,
+    "module": "Node16",
+    "outDir": "dist",
     // Include the DOM types
     "lib": ["es2022", "dom", "dom.iterable"],
-    // Settings for monorepo
+    // Tells typescript this is a monorepo
     "composite": true,
     // Tells TypeScript to emit .d.ts files
     "declaration": true,
@@ -27,6 +25,6 @@
     "sourceMap": true
   },
   // Include the necessary files for your project
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules"]
 }
