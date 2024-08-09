@@ -6,9 +6,12 @@
   "author": {
     "name": "Bassim Shahidy",
     "email": "bassim@shahidy.com",
-    "url": "https://bassim.build"
+    "url": "https://github.com/AVGVSTVS96"
   },
-  "repository": "TODO:package-repository",
+  "repository": {
+    "type": "git",
+    "url": "TODO:package-repository"
+  },
   "keywords": ["TODO:package-keywords"],
   "type": "module",
   "main": "./dist/index.js",
